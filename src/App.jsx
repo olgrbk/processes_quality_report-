@@ -165,7 +165,7 @@ export default function App() {
           <>
             {sections.map((section, sectionIdx) => (
               <div key={sectionIdx} className="bg-slate-800">
-                <divContent className="p-4 space-y-2">
+                <div className="p-4 rounded bg-slate-800 shadow" className="p-4 space-y-2">
                   <h2 className="font-semibold text-lg">{section.title}</h2>
                   {section.questions.map((q, qIdx) => (
                     <div key={qIdx} className="mb-2">
